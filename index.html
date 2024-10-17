@@ -11,13 +11,22 @@ Date Last Modified: N/A
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treaty 1</title>
+    <!--this links my external css code to this html file-->
     <link rel="stylesheet" href="CSS/style.css" />
     <style>
+      /**this section of code holds all my internal css for this website**/
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      /**this is the nav bar class code for my website**/
       .topnav {
         overflow: hidden;
         background-color: #333;
       }
-
       .topnav a {
         float: left;
         color: #f2f2f2;
@@ -26,17 +35,40 @@ Date Last Modified: N/A
         text-decoration: none;
         font-size: 17px;
       }
-
       .topnav a:hover {
         background-color: #ddd;
         color: black;
       }
-
       .topnav a.active {
         background-color: #04aa6d;
         color: white;
       }
+      main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      hr {
+        border: 2px solid #04aa6d;
+        margin: 20px 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+      p {
+        line-height: 1.6;
+      }
     </style>
+    <!--this is my navagation bar for my website-->
   </head>
   <body>
     <nav>
@@ -47,19 +79,81 @@ Date Last Modified: N/A
     </nav>
 
     <main>
-      <div>
-        <h1 style="text-align: center">Treaty 1</h1>
-        <hr style="border: black solid 2px" />
-      </div>
-      <div>
-        <p>Treaty 1 was negotiated at Lower Fort Garry in Manitoba</p>
-        <p>
-          Where the Treaty was negotiated (add picture of location as background
-          or something)
-        </p>
-        <p>A map of Treaty 1</p>
-      </div>
-      <img src="Pictures/picture-of-signing.png" height="400" width="700" />
+      <h1>Treaty 1</h1>
+      <hr />
+      <p>Treaty 1 was negotiated at Lower Fort Garry in Manitoba.</p>
+      <!--this section of code holds the images of my website along with figcaptions to helpe with accessability-->
+      <figure>
+        <figcaption>
+          <a href="https://treaty1.ca/treaty-no-1/"> Treaty No. 1 </a>
+        </figcaption>
+        <img
+          style="height: 450px; width: 800px"
+          src="Pictures/signing.png"
+          alt="Image of the signing of the treaties across Canada" />
+        <figcaption>
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Numbered-Treaties-Map.svg">
+            Numbered Treaties Map
+          </a>
+        </figcaption>
+        <img
+          src="Pictures/treaty-1-zoomed-in.PNG"
+          alt="Zoomed-in image of Treaty 1" />
+        <figcaption>
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Numbered-Treaties-Map.svg">
+            Treaties Across Canada
+          </a>
+        </figcaption>
+        <img
+          src="Pictures/Treatys.PNG"
+          alt="Image of the treaties across Canada" />
+      </figure>
+      <!--section ends-->
+      <!--this section holds the information of the first nations people on my website-->
+      <h2>Which communities were involved in the signing of tready 1?</h2>
+      <p>
+        These were the communities that were involved in forming Treaty One: the
+        Anishinaabe, Muskegon Cree peoples, and the Crown.
+      </p>
+      <strong>https://www.canada.ca/</strong>
+      <h2>About the communities</h2>
+      <p>
+        The Anishinaabe originated on the northeast coast of what is now Canada
+        and the United States.
+      </p>
+      <p>
+        The Muskegon were native-born
+        <span style="color: blue">Americans </span>from
+        <span style="color: rgb(140, 24, 24)">New England</span>, New York, and
+        Pennsylvania.
+      </p>
+      <p>
+        The Crown refers to the <span style="color: gold">royals</span> from
+        England.
+      </p>
+      <strong>https://www.canada.ca/</strong>
+      <h2>What were the terms to the aggreement to tready 1?</h2>
+      <p>
+        The terms discussed in the agreement of Treaty One said that "In Treaty
+        One, the band of Yellow Quill will resive a further 25 square miles of
+        land to be laid out around the reserve."
+      </p>
+      <p>The indiginous peoples were given 160 acres of land per family</p>
+      <p>
+        Also in the agreement, the Indigenous peoples were to hand over a large
+        portion of land in the southeast and south-central current-day Manitoba
+        to Governor Archibald and the Crown.
+      </p>
+      <strong>www.rcaanc-cirnac.gc.ca</strong>
+      <h2>How is the tready being implemented today?</h2>
+      <p>
+        This treaty is being implemented today with the example of the Kapyong
+        urban reserve, which was given to them after a long-standing fight
+        between the government and the First Nations.
+      </p>
+      <strong>www.cbc.ca</strong>
     </main>
   </body>
 </html>
