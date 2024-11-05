@@ -1,4 +1,4 @@
-/**this is my exteral css code for my website**/
+/* body for webpages*/
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -7,6 +7,35 @@ body {
   border: 0px;
   padding: 0px;
 }
+
+/* Headings */
 h1 {
   font-size: 60px;
+  margin-top: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 15px;
+  color: #444;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
 }
