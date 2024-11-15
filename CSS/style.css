@@ -2,12 +2,14 @@
 I chose to do this colour combination because I felt it 
 suited the website really well and if I chose any other 
 colour combination it would have felt christmasy since it 
-was red when I chose complamentry. Or it would 
-have not worked for the website's design*/
+was red and green when I chose complamentry or any other combination.
+Those colour combinations would have not worked for the website's design so i settled 
+with Triadic and the colours #6d04aa; #04aa6d; #aa6d04;*/
 
 /* this section applys to all items on the webpage*/
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 140%;
 }
 /* body for webpages*/
 body {
@@ -20,7 +22,7 @@ body {
 
 /* Headings */
 h1 {
-  font-size: 60px;
+  font-size: 3.6rem;
   margin-top: 20px;
   color: #333;
   text-align: center;
@@ -28,16 +30,16 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.2rem;
   margin-top: 15px;
-  color: #444;
+  color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.2rem;
   margin-top: 10px;
-  color: #555;
+  color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -67,12 +69,13 @@ a {
   font-size: 17px;
 }
 .topnav a:hover {
-  color: #aa6d04;
+  color: #9f8e8e;
 }
 .topnav a.active {
   background-color: #04aa6d;
   color: white;
 }
+/*main semantic tag code */
 main {
   padding: 20px;
   max-width: 800px;
